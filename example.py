@@ -1,6 +1,6 @@
 example = 'tetriandoch'
 print(example[1])
 print(example[-1])
-print(example[5:])
+print(example[int(len(example)/2):])
 print(example[::-1])
 print(example[1::2])
